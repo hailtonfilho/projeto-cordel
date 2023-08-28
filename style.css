@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+header{
+    background-color: black;
+    height: 30vh;
+    margin: -2vh;
+    padding-top: 20px;
+    
+}
+
+
+header > h1{
+  text-align: center;
+  font-family: var(--fonte2);
+  font-size: 99px;
+  color: white;
+  margin: 26px 20px 0px 20px;
+}
+
+header > p{
+    color: rgb(218, 218, 218);
+    text-align: center;
+    font-family: var(--fonte1);
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+article#pp > p{
+    font-family: var(--fonte3);
+    font-size: 30px;
+    margin: 72px 0px 0px 10px;
+} 
+
+section#imagem{
+    height: 400px;
+    background: black url('imagens/background001.jpg') center center fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);       
+}
+
+aside#primeiro{
+    background-color: rgba(0, 0, 0, 0.24);
+    width: 400px;
+    margin: 13px 0px 0px 32px;
+    transform: translate(1px, 50px);
+}
+
+aside#primeiro > p{
+    color: white;
+    font-family: var(--fonte3);
+    font-size: 25px;
+}
+
+article#pp2{
+    font-family: var(--fonte3);
+    font-size: 30px;
+    margin: 72px 0px 0px 10px;
+}
+
+section#imagem2{
+    height: 400px;
+    background: black url('imagens/background002.jpg') center center fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);       
+}
+
+aside#segundo{
+    background-color: rgba(0, 0, 0, 0.24);
+    width: 400px;
+    margin: 13px 0px 0px 32px;
+    transform: translate(1px, 15px);
+}
+
+aside#segundo > p{
+    font-family: var(--fonte3);
+    font-size: 30px;
+    margin: 72px 0px 0px 10px;
+}
+
+article#pp3{
+    font-family: var(--fonte3);
+    font-size: 30px;
+    margin: 72px 0px 0px 10px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    font-family: var(--fonte1);
+    text-align: center;
+    margin: -2vh;
+}
+
+b.fim{
+    color: brown;
+}
+
