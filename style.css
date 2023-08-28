@@ -15,6 +15,7 @@ header{
     height: 30vh;
     margin: -2vh;
     padding-top: 20px;
+    max-width: 4000px;
     
 }
 
@@ -25,6 +26,7 @@ header > h1{
   font-size: 99px;
   color: white;
   margin: 26px 20px 0px 20px;
+  max-width: 4000px;
 }
 
 header > p{
@@ -33,18 +35,21 @@ header > p{
     font-family: var(--fonte1);
     font-size: 15px;
     padding-bottom: 50px;
+    max-width: 4000px;
 }
 
 a{
     color: white;
     text-decoration: none;
     font-weight: bolder;
+    max-width: 4000px;
 }
 
 article#pp > p{
     font-family: var(--fonte3);
     font-size: 30px;
     margin: 72px 0px 0px 10px;
+    max-width: 4000px;
 } 
 
 section#imagem{
@@ -59,18 +64,21 @@ aside#primeiro{
     width: 400px;
     margin: 13px 0px 0px 32px;
     transform: translate(1px, 50px);
+    max-width: 4000px;
 }
 
 aside#primeiro > p{
     color: white;
     font-family: var(--fonte3);
     font-size: 25px;
+    max-width: 4000px;
 }
 
 article#pp2{
     font-family: var(--fonte3);
     font-size: 30px;
     margin: 72px 0px 0px 10px;
+    max-width: 4000px;
 }
 
 section#imagem2{
@@ -85,18 +93,21 @@ aside#segundo{
     width: 400px;
     margin: 13px 0px 0px 32px;
     transform: translate(1px, 15px);
+    max-width: 4000px;
 }
 
 aside#segundo > p{
     font-family: var(--fonte3);
     font-size: 30px;
     margin: 72px 0px 0px 10px;
+    max-width: 4000px;
 }
 
 article#pp3{
     font-family: var(--fonte3);
     font-size: 30px;
     margin: 72px 0px 0px 10px;
+    max-width: 4000px;
 }
 
 footer{
@@ -105,9 +116,11 @@ footer{
     font-family: var(--fonte1);
     text-align: center;
     margin: -2vh;
+    max-width: 4000px;
 }
 
 b.fim{
     color: brown;
+    max-width: 4000px;
 }
 
